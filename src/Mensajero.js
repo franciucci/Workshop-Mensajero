@@ -4,7 +4,7 @@ import MensajesEnviados from "./MensajesEnviados";
 function Mensajero(props) {
   return (
     <div className="mensajero">
-      <h3 className="mensajero__title"> Mensajero </h3>
+      <h3 className="mensajero__title"> Mensajero {props.key} </h3>
       <form className="inputForm" onSubmit={props.handleSubmit}>
         <input
           className="inputForm__input"
