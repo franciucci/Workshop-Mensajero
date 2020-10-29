@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.mensajero {
+  margin: 40px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 2px;
+  border-radius: 10px;
+  background-color: #647bff;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 10px;
+}
+.mensajero__title {
+  margin-bottom: 15px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.inputForm__input {
+  border-radius: 5px;
+  outline: none;
+  margin-right: 5px;
+}
+.inputForm__submit {
+  border-radius: 5px;
+  outline: none;
+  background-color: #c7dfe5;
+}
+.mensajes {
+  margin-top: 10px;
+  padding: 5px;
+  width: 50%;
+  border: 1px solid #0d2de6;
+  border-radius: 10px;
+  box-shadow: inset -1px 1px 2px;
+  background-color: #0d2de6;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.mensajes__title {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.mensajes__lista {
+  list-style: none;
+  padding: 5px;
+  margin-top: 10px;
+}
+.mensajes_lista__msj {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.msjText {
+  margin-right: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.deleteBtn {
+  border-radius: 5px;
+  outline: none;
+  background-color: #c7dfe5;
+}
